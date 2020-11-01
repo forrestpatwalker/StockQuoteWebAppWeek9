@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.origamisoftware.teach.advanced.model.database.PersonDAOTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.914 s <<< FAILURE! - in com.origamisoftware.teach.advanced.model.database.PersonDAOTest
+com.origamisoftware.teach.advanced.model.database.PersonDAOTest.testRead  Time elapsed: 0.767 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+
+com.origamisoftware.teach.advanced.model.database.PersonDAOTest.testRead  Time elapsed: 0.767 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+
+com.origamisoftware.teach.advanced.model.database.PersonDAOTest.testWrite  Time elapsed: 0.143 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.setUp(PersonDAOTest.java:13)
+
+com.origamisoftware.teach.advanced.model.database.PersonDAOTest.testWrite  Time elapsed: 0.143 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonDAOTest.tearDown(PersonDAOTest.java:13)
+

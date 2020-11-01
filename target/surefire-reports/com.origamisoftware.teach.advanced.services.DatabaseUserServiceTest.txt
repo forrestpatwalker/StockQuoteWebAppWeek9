@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.201 s <<< FAILURE! - in com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest
+com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.testAddPerson  Time elapsed: 0.1 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+
+com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.testAddPerson  Time elapsed: 0.1 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+
+com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.testAddPersonDuplicateUser  Time elapsed: 0.099 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.setUp(DatabaseUserServiceTest.java:18)
+
+com.origamisoftware.teach.advanced.services.DatabaseUserServiceTest.testAddPersonDuplicateUser  Time elapsed: 0.099 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+

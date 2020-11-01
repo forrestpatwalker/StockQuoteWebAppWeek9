@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.origamisoftware.teach.advanced.util.XMLUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.origamisoftware.teach.advanced.util.XMLUtilsTest
+com.origamisoftware.teach.advanced.util.XMLUtilsTest.testUnmarshallWithSchemaValidation  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Schema: ./xml/stock_info.xsd on classpath. Could not validate input XML
+	at com.origamisoftware.teach.advanced.util.XMLUtilsTest.testUnmarshallWithSchemaValidation(XMLUtilsTest.java:80)
+
+com.origamisoftware.teach.advanced.util.XMLUtilsTest.testMarshal  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Schema: ./xml/stock_info.xsd on classpath. Could not validate input XML
+	at com.origamisoftware.teach.advanced.util.XMLUtilsTest.testMarshal(XMLUtilsTest.java:86)
+

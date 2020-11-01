@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.116 s <<< FAILURE! - in com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest
+com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.testRead  Time elapsed: 0.113 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.setUp(PersonStocksDAOTest.java:11)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.setUp(PersonStocksDAOTest.java:11)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.setUp(PersonStocksDAOTest.java:11)
+
+com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.testRead  Time elapsed: 0.113 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.tearDown(PersonStocksDAOTest.java:11)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.tearDown(PersonStocksDAOTest.java:11)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.model.database.PersonStocksDAOTest.tearDown(PersonStocksDAOTest.java:11)
+

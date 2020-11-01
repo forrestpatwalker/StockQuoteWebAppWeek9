@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.origamisoftware.teach.advanced.util.DatabaseUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.282 s <<< FAILURE! - in com.origamisoftware.teach.advanced.util.DatabaseUtilsTest
+com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGoodInitFile  Time elapsed: 0.052 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseInitializationException: Could not initialize db because of:Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGoodInitFile(DatabaseUtilsTest.java:20)
+Caused by: com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGoodInitFile(DatabaseUtilsTest.java:20)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGoodInitFile(DatabaseUtilsTest.java:20)
+
+com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnection  Time elapsed: 0.053 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnection(DatabaseUtilsTest.java:36)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnection(DatabaseUtilsTest.java:36)
+
+com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnectionWorks  Time elapsed: 0.053 s  <<< ERROR!
+com.origamisoftware.teach.advanced.util.DatabaseConnectionException: Could not connection to database.Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnectionWorks(DatabaseUtilsTest.java:42)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'stocks'
+	at com.origamisoftware.teach.advanced.util.DatabaseUtilsTest.testGetConnectionWorks(DatabaseUtilsTest.java:42)
+

@@ -1,0 +1,14 @@
+com\origamisoftware\teach\advanced\model\StockQuoteTest.class
+com\origamisoftware\teach\advanced\model\database\AbstractBaseDAOTest.class
+com\origamisoftware\teach\advanced\util\DatabaseUtilsTest.class
+com\origamisoftware\teach\advanced\model\database\PersonDAOTest.class
+com\origamisoftware\teach\advanced\services\ServiceFactoryTest.class
+com\origamisoftware\teach\advanced\model\database\StockSymbolDAOTest.class
+com\origamisoftware\teach\advanced\util\XMLUtilsTest.class
+com\origamisoftware\teach\advanced\model\database\QuoteDAOTest.class
+com\origamisoftware\teach\advanced\model\database\PersonStocksDAOTest.class
+com\origamisoftware\teach\advanced\model\StockQueryTest.class
+com\origamisoftware\teach\advanced\services\DatabaseServiceTest.class
+com\origamisoftware\teach\advanced\services\DatabaseUserServiceTest.class
+com\origamisoftware\teach\advanced\apps\stockquote\BasicStockQuoteApplicationTest.class
+com\origamisoftware\teach\advanced\services\DatabaseStockServiceTest.class
